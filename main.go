@@ -13,6 +13,6 @@ func main() {
 
 	cards := newDeck()
 
-	fmt.Println(cards.toString())
+	fmt.Println(cards.saveToFile("my_cards"))
 
 }
